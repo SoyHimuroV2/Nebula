@@ -106,7 +106,7 @@ const products = [
         number: "06",
 
         image:
-            "img/Mix frutos rojos.png",
+            "img/mix.png",
 
         flavor1:
             "Mix Frutos Rojos",
