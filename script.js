@@ -574,7 +574,7 @@ document.addEventListener(
 
 
 const instagramLink =
-    "https://www.instagram.com/direct/t/18016541666661072/";
+    "https://www.instagram.com/nebula.hubstore/";
 
 
 const whatsappLink =
