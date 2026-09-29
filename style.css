@@ -4062,3 +4062,50 @@ span:nth-child(5) {
     }
 
 }
+
+/* =========================================================
+   ICONOS INSTAGRAM + WHATSAPP
+========================================================= */
+
+.social-svg svg {
+    width: 21px;
+    height: 21px;
+
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Instagram */
+.instagram-svg svg {
+    color: #ffffff;
+}
+
+/* WhatsApp */
+.whatsapp-svg svg {
+    color: #ffffff;
+}
+
+/* Iconos de contacto inferiores */
+.social-icon.social-svg svg {
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+}
+
+/* WhatsApp un poquito más grande */
+.whatsapp-svg svg {
+    width: 23px;
+    height: 23px;
+}
+
+/* Efecto al pasar el mouse */
+.floating-button:hover .social-svg svg {
+    transform: scale(1.12);
+}
+
+.social-svg svg {
+    transition: transform .25s ease;
+}
